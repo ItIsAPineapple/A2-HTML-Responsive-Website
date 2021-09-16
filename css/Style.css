@@ -1,0 +1,29 @@
+/*
+A CSS rule set contains a selector and a declaration.
+Declarations contains rules written via properties and values.
+In this case, p is a selector, and applies one rule which sets the value 20px to the font-size property:
+This example is the body selector
+there are rules for font, padding, margin, and background-color
+*/
+
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+}
+
+/* Global -
+
+Global means these rules apply by default to anything selected
+
+The container width is responsive to the size of the device,
+the margin 'auto' will keep the container in the middle of the screen using 'overflow hidden' will prevent
+a scroll bar from popping up if the content goes beyond the screen boundary
+
+*/
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
