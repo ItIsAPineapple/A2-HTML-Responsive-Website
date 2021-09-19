@@ -64,7 +64,19 @@ header #branding{
     margin-top:10px;
 }
 
-header .highlightr, header .current a{
+header .highlight, header .current a{
     color:#e8491d;
     font-weight:bold;
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+}
+
+#showcase{
+    min-height:400px;
+    background:url('../img/showcae.jpg') no-repeat 0 -400px;
+    text-align:center;
+    color:#ffffff;
 }
