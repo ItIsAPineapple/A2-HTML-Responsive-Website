@@ -27,6 +27,12 @@ a scroll bar from popping up if the content goes beyond the screen boundary
     margin:auto;
     overflow:hidden;
 }
+
+ul{
+    margin:0;
+    padding:0;
+}
+
 header{
     background:#35424a;
     color:#ffffff;
@@ -56,4 +62,9 @@ header li{
 header #branding{
     float:right;
     margin-top:10px;
+}
+
+header .highlightr, header .current a{
+    color:#e8491d;
+    font-weight:bold;
 }
