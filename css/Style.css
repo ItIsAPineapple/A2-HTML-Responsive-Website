@@ -48,23 +48,21 @@ header a{
     font-size:16px;
 }
 
-header ul{
-    margin:0;
-    padding:0;
-}
-
 header li{
     float:left;
     display:inline;
     padding: 0 20px 0 20px;
 }
 
-header nav{
-    float:right;
-    margin-top:10px;
+header #branding{
+    float:left;
 }
 
-header #branding{
+header #branding h1{
+    margin:0;
+}
+
+header nav{
     float:right;
     margin-top:10px;
 }
@@ -81,7 +79,7 @@ header a:hover{
 
 #showcase{
     min-height:400px;
-    background:url('../img/showcae.jpg') no-repeat 0 -400px;
+    background:url('../img/showcase.jpg') no-repeat 0 -400px;
     text-align:center;
     color:#ffffff;
 }
@@ -97,12 +95,17 @@ header a:hover{
 }
 
 #newsletter h1{
+    float:left;
+    margin-top:15px;
+}
+
+#newsletter form {
     float:right;
     margin-top:15px;
 }
 /*CCS Version 3
 */
-#newsletter input[type="email"]{
+#newsletter input[type="text"]{
     padding:4px;
     height:25px;
     width:250px;
